@@ -14,9 +14,3 @@ float Circle::Menseki(float r)
 {
 	return r * r * PI;
 }
-
-
-
-
-
-
