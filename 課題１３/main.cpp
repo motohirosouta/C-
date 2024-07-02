@@ -31,4 +31,4 @@ void SetY(float a, float b)
 	y->SetB(b);
 	y->Disp();
 	delete y;
-}
+}
