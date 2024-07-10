@@ -361,3 +361,7 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/C++実習課題.sln
+*.filters
+*.vcxproj
+/.gitignore
