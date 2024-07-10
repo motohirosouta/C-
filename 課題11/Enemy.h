@@ -3,7 +3,7 @@
 class Enemy
 {
 	int hp;
-	float atk;
+	int atk;
 	int def;
 
 public:

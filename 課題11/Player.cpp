@@ -32,7 +32,7 @@ int Player::Attack(int i)
 int Player::Damege(int i)
 {
 	std::cout << "プレイヤーは" << i << "のダメージ\n";
-	return atk - i / 2;
+	return hp -= i;
 }
 
 //防御力を取得(アクセス関数）
