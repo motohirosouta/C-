@@ -1,13 +1,16 @@
 #include"Status.h"
 
 //レベル値を受け取る（アクセス関数）
-void Status::SetLv(int i)
+bool Status::SetLv(int i)
 {
-	lv = i;
-	if (i < 99)
-	{
-		i = 99;
+	
+	if (i >= 100) {
+		lv = 99;
 	}
+	else {
+		lv = i;
+	}
+	return lv;
 }
 
 void Status::Calc()
